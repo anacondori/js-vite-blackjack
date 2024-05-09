@@ -8,7 +8,7 @@ export const crearCarta = (divCartasJugadores, carta, turno) => {
 
     if (!divCartasJugadores) throw new Error('divCartasJugadores es un argumento obligatorio');
     if (!carta) throw new Error('La carta es un argumento obligatorio');
-    if (!turno) throw new Error('El turno es un argumento obligatorio');
+   // if (!turno) throw new Error('El turno es un argumento obligatorio');
 
     //MOSTRAR CARTA JUGADOR / COMPUTADORA
     //<img class="carta" src="assets/cartas/10C.png" >             
